@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-05-07T09:52:55.724Z</updated>
+  <updated>2021-05-07T15:21:16.611Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计数排序</title>
+    <link href="http://example.com/2021/05/07/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F/"/>
+    <id>http://example.com/2021/05/07/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F/</id>
+    <published>2021-05-07T14:35:11.000Z</published>
+    <updated>2021-05-07T15:21:16.611Z</updated>
+    
+    <content type="html"><![CDATA[<p>计数排序的特征<br>当输入的元素是 n 个 0 到 k 之间的整数时，它的运行时间是 Θ(n + k)。计数排序不是比较排序，排序的速度快于任何比较排序算法。<br>由于用来计数的数组C的长度取决于待排序数组中数据的范围（等于待排序数组的最大值与最小值的差加上1），这使得计数排序对于数据范围很大的数组，需要大量时间和内存。例如：计数排序是用来排序0到100之间的数字的最好的算法，但是它不适合按字母顺序排序人名。但是，计数排序可以用在基数排序中的算法来排序数据范围很大的数组。</p><p>通俗地理解，例如有 10 个年龄不同的人，统计出有 8 个人的年龄比 A 小，那 A 的年龄就排在第 9 位,用这个方法可以得到其他每个人的位置,也就排好了序。当然，年龄有重复时需要特殊处理（保证稳定性），这就是为什么最后要反向填充目标数组，以及将每个数字的统计减去 1 的原因。<br>看代码</p><title></title>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;计数排序的特征&lt;br&gt;当输入的元素是 n 个 0 到 k 之间的整数时，它的运行时间是 Θ(n + k)。计数排序不是比较排序，排序的速度快于任何比较排序算法。&lt;br&gt;由于用来计数的数组C的长度取决于待排序数组中数据的范围（等于待排序数组的最大值与最小值的差加上1），这使得</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>article title</title>
